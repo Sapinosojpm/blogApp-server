@@ -12,7 +12,7 @@ const app = express();
 
 // CORS Configuration (Allow All or Restrict to Specific Domains)
 app.use(cors({
-  origin: ["https://blogapp-server-1-pqhu.onrender.com", "http://localhost:3000"],
+  origin: ["https://blogapp-server-1-pqhu.onrender.com", "http://localhost:3000", "http://localhost:4000"],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"]
